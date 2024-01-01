@@ -38,10 +38,10 @@ export default function ProfilePage() {
       <h1>ID : {Id}</h1>
       {isFetched ? (
         <div>
-          <h2>Data from API 1</h2>
+          <h2>Data from API 1 (posts)</h2>
           <pre>{JSON.stringify(data1, null, 2)}</pre>
 
-          <h2>Data from API 2</h2>
+          <h2>Data from API 2 (albums)</h2>
           <pre>{JSON.stringify(data2, null, 2)}</pre>
         </div>
       ) : (
